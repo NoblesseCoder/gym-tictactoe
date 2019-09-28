@@ -6,4 +6,4 @@ setup(name='gym_tictactoe',
       author="Ashik Poovanna",
       description='Tic-Tac-Toe environment for OpenAI Gym',
       license='MIT License',
-      install_requires=['gym'])
+      install_requires=['gym-tictactoe'])
