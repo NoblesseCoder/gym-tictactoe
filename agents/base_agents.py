@@ -25,7 +25,7 @@ class RandomAgent:
 		return(action)
 
 
-class HumanAgent:
+class HumanAgent():
 	def __init__(self,player_symbol):
 		self.player_symbol=player_symbol
 
@@ -46,7 +46,6 @@ class HumanAgent:
 		x=int(input("Enter x(0,2) board Coordinate:"))
 		y=int(input("Enter y(0,2) board Coordinate:"))
 		action=[x,y]
-		legal_moves=self.lookForLegalMoves(board_state)
 		if(action in legal_moves):
 			return(action)		
 		return(-1)	#indicates invalid move
